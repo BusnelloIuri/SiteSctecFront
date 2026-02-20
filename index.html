@@ -64,12 +64,12 @@
             
             <form action="">    
 
-                <label for="nome">Nome: </label>
-                <input type="text" id="nome" name="nome"><br>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required><br>
                 <label for="email">Email: </label>
-                <input type="email" id="email" name="email"><br>
+                <input type="email" id="email" name="email" required><br>
                 <label for="telefone" id="telefone">Telefone: </label>
-                <input type="tel" id="telefone" name="telefone"><br>
+                <input type="tel" id="telefone" name="telefone" required><br>
                 
                 <label for="assunto"></label>
                 <select id="assunto" name="assunto">
@@ -79,7 +79,7 @@
                 </select><br>
                 
                 <label for="mensagem">Mensagem: </label><br>
-                <textarea id="mensagem" name="mensagem" rows="5" cols="50"></textarea><br>
+                <textarea id="mensagem" name="mensagem" required rows="5" cols="50"></textarea><br>
 
                 <input type="checkbox" id="inscricao" name="inscricao">
                 <label for="inscricao">Deseja receber minha newsletter? Fique por dentro </label><br>
@@ -87,7 +87,7 @@
                 <br>
 
                 <input type="submit" value="Enviar mensagem">
-                
+
             </form>
 
             <p>Tem um projeto em mente? Entre em contato</p>
