@@ -11,8 +11,8 @@
     <header>
         <h1>Iuri</h1>
 
-        <nav><!---- seçao de navegação do site-->            
-            
+        <nav><!---- seçao de navegação do site-->
+
             <ul> <!---- lista nao ordenada para links do nosso menu-->
                 <li><a href="#sobre">Sobre Mim</a></li>
                 <li><a href="#projetos">Projetos</a></li>
@@ -55,14 +55,50 @@
         </article>
 
 
+
+
     </section>
 
+    <section id="habilidades">
+
+        <h2>Habilidades e tecnologias</h2>
+
+        <table>
+            <thead>
+
+                <tr>
+                    <th>Tecnologia</th>
+                    <th>Nível</th>
+                    <th>Descrição</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>HTML</td>
+                    <td>Iniciante</td>
+                    <td>Capaz de construir estruturas de paginas web semanticas e responsivas.</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>Intermediário</td>
+                    <td>Experiência com flexbox e grid layout, além de animações e transições.</td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>Basíco</td>
+                    <td>Desenvolvimento de scripts do lado do cliente para interações dinâmicas em páginas web.</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+
     <footer>
-        <p>Direitos autorais © 2026 Iuri. Todos os direitos reservados.</p>
+
         <section>
             <h2 id="contato">Contato</h2>
-            
-            <form action="">    
+
+            <form action="">
 
                 <label for="nome">Nome:</label>
                 <input type="text" id="nome" name="nome" required><br>
@@ -70,14 +106,14 @@
                 <input type="email" id="email" name="email" required><br>
                 <label for="telefone" id="telefone">Telefone: </label>
                 <input type="tel" id="telefone" name="telefone" required><br>
-                
+
                 <label for="assunto"></label>
                 <select id="assunto" name="assunto">
                     <option value="orcamento">Orçamento</option>
                     <option value="duvida">Dúvida</option>
                     <option value="outro">Outro</option>
                 </select><br>
-                
+
                 <label for="mensagem">Mensagem: </label><br>
                 <textarea id="mensagem" name="mensagem" required rows="5" cols="50"></textarea><br>
 
@@ -100,6 +136,7 @@
 
         </section>
 
+        <p>Direitos autorais © 2026 Iuri. Todos os direitos reservados.</p>
     </footer>
 </body>
 
